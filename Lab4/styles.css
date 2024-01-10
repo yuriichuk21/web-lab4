@@ -1,0 +1,21 @@
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    background-color: green;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}

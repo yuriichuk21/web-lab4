@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yuriichuk_Lab4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-green">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Lab4</a>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto mt-2 mb-2 mb-lg-0">
+                        <li class="nav-item text-center">
+                            <a id="Nav__LinkHome" class="nav-link active" href="#" onclick="$ns.loadHome();">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="Nav__LinkCategory" class="nav-link" href="#" onclick="$ns.loadCatalogCategories();">Category</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="Main__Home"></section>
+</div>
+<script src="js/Ajax__Utils.js"></script>
+<script src="js/Ajax__Load.js"></script>
+<script src="js/Hide__Menu.js"></script>
+</body>
+</html>
